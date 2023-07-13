@@ -1,0 +1,2 @@
+docker cp "C:\Users\L114\eclipse-workspace\register-account\src\main\resources\application.properties" "ce947a589ec71a630942de995273e357b765a73d473e6c2024022d69484b8e6a":/opt/register-account/config/application.properties
+docker-composer up

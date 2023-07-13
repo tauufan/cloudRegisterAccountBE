@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://192.75.75.26:5432/account_register
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: taufan
+      SPRING_DATASOURCE_DRIVER-CLASS-NAME: org.postgresql.Driver
+#      SPRING_DATASOURCE_DRIVER-CLASS-NAME: oracle.jdbc.OracleDriver
+#      SPRING_JPA_DATABASE-PLATFORM: org.hibernate.dialect.Oracle12cDialect
